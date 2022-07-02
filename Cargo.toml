@@ -1,0 +1,18 @@
+[package]
+name = "pkz"
+version = "0.1.0"
+edition = "2021"
+description = "Comic archive format"
+license = "MIT"
+repository = "https://github.com/niuhuan/pkz-rs"
+
+[dependencies]
+anyhow = "1.0"
+async-trait = "0.1"
+async_zip = "0.0"
+itertools = "0.10"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+tokio = "1"
+uuid = { version = "1.1", features = ["serde", "v4"] }
